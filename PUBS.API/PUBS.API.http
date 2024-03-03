@@ -1,0 +1,6 @@
+@PUBS.API_HostAddress = http://localhost:5124
+
+GET {{PUBS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
