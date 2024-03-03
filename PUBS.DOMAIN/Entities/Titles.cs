@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace PUBS.DOMAIN.Entities
 {
-    internal class Titles
+    public class Titles
     {
+        public string Id { get; set; }
+        public string Title { get; set; }
+        public string Type { get; set; }
+        public string PublishersId { get; set; }
+        public decimal Price { get; set; }
+        public decimal Advance { get; set; }
+        public int Royalty { get; set; }
+        public int YtdSales { get; set; }
+        public string Notes { get; set; }
+        public DateTime Pubdate { get; set; }
     }
 }

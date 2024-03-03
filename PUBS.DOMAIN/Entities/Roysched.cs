@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace PUBS.DOMAIN.Entities
 {
-    internal class Roysched
+    public class Roysched
     {
+        public string TitleId { get; set; }
+        public int Lorange { get; set; }
+        public int Hirange { get; set; }
+        public int Royalty { get; set; }
     }
 }
