@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace PUBS.DOMAIN.Entities
 {
-    internal class Countries
+    public class Countries
     {
+        public int Id { get; set; }
+        public int CreateUser { get; set; }
+        public DateTime CreationDate { get; set; }
+        public int ModifiedUser { get; set; }
+        public DateTime ModifiedDate { get; set; }
+        public int DeleteUser { get; set; }
+        public DateTime DeleteDate { get; set; }
+        public string Name { get; set; }
     }
 }

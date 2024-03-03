@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace PUBS.DOMAIN.Entities
 {
-    internal class PubInfo
+    public class PubInfo
     {
+        public string Id { get; set; }
+        public string Logo { get; set; }
+        public string Information { get; set; }
     }
 }
