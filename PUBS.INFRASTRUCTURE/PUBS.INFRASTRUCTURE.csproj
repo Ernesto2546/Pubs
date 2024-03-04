@@ -10,4 +10,12 @@
     <Folder Include="Exception\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PUBS.DOMAIN\PUBS.DOMAIN.csproj" />
+  </ItemGroup>
+
 </Project>
